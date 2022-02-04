@@ -1,0 +1,120 @@
+nav {
+    float: right;
+}
+
+nav li {
+    color: black;
+	padding:10px;
+	display: inline-block;
+    border-left:2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Verdana, roboto;
+}
+
+div {
+    min-height: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+div.header {
+    min-height: 40px;
+    padding: 10px;
+}
+
+header {
+    font-weight: bold;
+    color: black;
+}
+
+a {
+    font-family: Verdana, roboto;
+}
+
+
+.active {
+    background-color: lightgray;
+    font-weight: bold;
+    text-decoration: underline;
+    border-left:2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Verdana, roboto;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Verdana, roboto;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 18px;
+    font-family: Verdana, roboto;
+    line-height: 1.5;
+}
+
+img {
+    margin: 24px;
+    width: 325px;
+    padding: 10px;
+    border: 8px solid lightgray;
+}
+
+img.projects {
+    width: 325px;
+    height: 260px;
+}
+
+img.overview {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    border: none;
+}
+
+img:hover {
+    filter: blur();
+    border: dashed lightsteelblue;
+}
+
+img.overview:hover {
+    border: none;
+}
+
+img.prototype {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+img.ccco-process {
+    width: 325px;
+    height: 230px;
+}
+
+img.profile {
+    float: right;
+    border: none;
+    width: 300px;
+    margin-left: 30px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
